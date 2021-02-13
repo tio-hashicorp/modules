@@ -8,5 +8,5 @@ variable "bucket_name" {
 variable "tags" {
   description = "Tags to set on the bucket."
   type = map(string)
-  default = {}
+  default = { "version" = "0.0.2"}
 }
